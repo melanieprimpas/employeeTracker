@@ -1,26 +1,7 @@
 # employeeTracker
 
-/*interface Employee {
-  id?: number;
-  first_name?: string;
-  last_name?: string;
-  title?: string;
-  salary?: number;
-  name?: string;
-  manager?: string;
-}
+## Description
+This project was to create an application that tracks employees by departments, and roles. The app connects to a SQL database that includes starter code implemented through a schema.sql file which creates the database and tables, and a seeds.sql file that adds data to the tables. The employee tracker app runs and prompts the user to view, add, update or deleted departments, roles and employees.
 
-function printCustomTable(data: Employee[]): void {
-if (data.length === 0) return;
-
-const headers = Object.keys(data[0]) as (keyof Employee)[];;
-const separator = headers.map(() => '---').join(' | ');
-
-console.log(headers.join(' | '));
-console.log(separator);
-
-// Print each row
-data.forEach((row: Employee) => {
-  console.log(headers.map(header => row[header]).join(' | '));
-});
-}*/
+## Demonstration Video
+https://drive.google.com/file/d/1fYE0ZPIVxEOS1A1b3bWdVa1ynib7cGmf/view?usp=sharing
